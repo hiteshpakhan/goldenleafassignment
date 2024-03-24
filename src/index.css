@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.homeh{
+    height: 100vh;
+    background-image: url("/src/assets/herobg.png");
+}
+
+.abouth{
+    height: 1306px;
+    background-color: aqua;
+}
+
+.whyhinjawadih{
+    height: 1700px;
+    background-color: blueviolet;
+}
+
+.communityofh{
+    height: 1305px;
+    background-color: chartreuse;
+}
+
+.managedforesth{
+    height: 1305px;
+    background-color: violet;
+}
+
+.workfromh{
+    height: 1117px;
+    background-color: teal;
+}
+
+.amenitiesh{
+    background-color: slategray;
+    height: 2285px;
+}
+
+.contactush{
+    background-color: royalblue;
+    height: 1336px;
+}
+
+.bgimg{
+    background-image: url("/src/assets/Hero\ Images.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgbook{
+    background-color: #BD7F4C;
+}
