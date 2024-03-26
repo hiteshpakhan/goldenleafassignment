@@ -6,7 +6,7 @@ const Navbar = () => {
     const [activeNav, setActiveNav] = useState(false); 
     return (
         <>
-            <div className={`fixed left-0 top-0 p-3 md:w-[50vw] h-full w-full bg-white z-10 ${activeNav ? "-translate-x-0" : "-translate-x-full"} transition-all duration-500`}>
+            <div className={`fixed left-0 top-0 p-3 md:w-[50vw] h-full w-full bg-white z-50 ${activeNav ? "-translate-x-0" : "-translate-x-full"} transition-all duration-500`}>
                 <RxCross1 className=' m-2 p-4 text-7xl cursor-pointer' onClick={()=>setActiveNav(!activeNav)}/>
                 <ul>
                 <li><a href="#home">Home</a></li>

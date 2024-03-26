@@ -7,6 +7,7 @@ import Managedforest from '../PageSections/Managedforest'
 import Workfrom from '../PageSections/Workfrom'
 import Communityof from '../PageSections/Communityof'
 import Amenities from '../PageSections/Amenities'
+import Infosec from '../PageSections/Infosec'
 
 const LandingPage = () => {
   return (
@@ -19,6 +20,7 @@ const LandingPage = () => {
         <Workfrom/>
         <Amenities/>
         <Contactus />
+        <Infosec/>
     </div>
   )
 }
